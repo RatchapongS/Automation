@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2024-05-23T08:33:34.696Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.4.6" etag="yOoa40T-rxaQErCyjcjC" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-23T13:13:09.328Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="hS0V0OKV1-koUbTm3ivg" version="24.4.6" type="github">
   <diagram name="Page-1" id="O-N5DbO74u-YA0JpEBVj">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Qr0gB3C9Frs6GiIeUBCw-1" value="Deploy IAC Directory Script" style="whiteSpace=wrap;strokeWidth=2;fillColor=#b0e3e6;strokeColor=#0e8088;shadow=1;fontFamily=aptos;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Daptos;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="332" y="140" width="210" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr0gB3C9Frs6GiIeUBCw-2" value="Run IAC Create Directory Script" style="whiteSpace=wrap;strokeWidth=2;fillColor=#b0e3e6;strokeColor=#0e8088;shadow=1;fontFamily=aptos;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Daptos;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="317" y="224" width="241" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr0gB3C9Frs6GiIeUBCw-3" value="Deploy Application Configuration File" style="whiteSpace=wrap;strokeWidth=2;fillColor=#b0e3e6;strokeColor=#0e8088;shadow=1;fontFamily=aptos;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Daptos;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="296" y="308" width="282" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr0gB3C9Frs6GiIeUBCw-4" value="Deploy Git Pull Script" style="whiteSpace=wrap;strokeWidth=2;fillColor=#b0e3e6;strokeColor=#0e8088;shadow=1;fontFamily=aptos;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Daptos;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="352" y="392" width="169" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr0gB3C9Frs6GiIeUBCw-5" value="Run Git Pull Script" style="whiteSpace=wrap;strokeWidth=2;fillColor=#b0e3e6;strokeColor=#0e8088;shadow=1;fontFamily=aptos;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Daptos;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="364" y="476" width="147" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr0gB3C9Frs6GiIeUBCw-6" value="Run Get WebSphere Configuration Script" style="whiteSpace=wrap;strokeWidth=2;fillColor=#b0e3e6;strokeColor=#0e8088;shadow=1;fontFamily=aptos;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Daptos;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="284" y="560" width="305" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr0gB3C9Frs6GiIeUBCw-7" value="Push WebSphere Configuration to GIT Server" style="whiteSpace=wrap;strokeWidth=2;fillColor=#b0e3e6;strokeColor=#0e8088;shadow=1;fontFamily=aptos;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Daptos;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="270" y="644" width="334" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Qr0gB3C9Frs6GiIeUBCw-8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49990699404761907;exitY=1;entryX=0.49784426867219916;entryY=0;rounded=0;fillColor=#b0e3e6;strokeColor=#0e8088;shadow=1;fontFamily=aptos;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Daptos;fontSize=13;" edge="1" parent="1" source="Qr0gB3C9Frs6GiIeUBCw-1" target="Qr0gB3C9Frs6GiIeUBCw-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr0gB3C9Frs6GiIeUBCw-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49784426867219916;exitY=1;entryX=0.4999307402482269;entryY=0;rounded=0;fillColor=#b0e3e6;strokeColor=#0e8088;shadow=1;fontFamily=aptos;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Daptos;fontSize=13;" edge="1" parent="1" source="Qr0gB3C9Frs6GiIeUBCw-2" target="Qr0gB3C9Frs6GiIeUBCw-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr0gB3C9Frs6GiIeUBCw-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4999307402482269;exitY=1;entryX=0.5028430103550295;entryY=0;rounded=0;fillColor=#b0e3e6;strokeColor=#0e8088;shadow=1;fontFamily=aptos;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Daptos;fontSize=13;" edge="1" parent="1" source="Qr0gB3C9Frs6GiIeUBCw-3" target="Qr0gB3C9Frs6GiIeUBCw-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr0gB3C9Frs6GiIeUBCw-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5028430103550295;exitY=1;entryX=0.49646577380952384;entryY=0;rounded=0;fillColor=#b0e3e6;strokeColor=#0e8088;shadow=1;fontFamily=aptos;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Daptos;fontSize=13;" edge="1" parent="1" source="Qr0gB3C9Frs6GiIeUBCw-4" target="Qr0gB3C9Frs6GiIeUBCw-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr0gB3C9Frs6GiIeUBCw-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49646577380952384;exitY=1;entryX=0.5015753073770491;entryY=0;rounded=0;fillColor=#b0e3e6;strokeColor=#0e8088;shadow=1;fontFamily=aptos;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Daptos;fontSize=13;" edge="1" parent="1" source="Qr0gB3C9Frs6GiIeUBCw-5" target="Qr0gB3C9Frs6GiIeUBCw-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qr0gB3C9Frs6GiIeUBCw-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5015753073770491;exitY=1;entryX=0.4999415232035928;entryY=0;rounded=0;fillColor=#b0e3e6;strokeColor=#0e8088;shadow=1;fontFamily=aptos;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Daptos;fontSize=13;" edge="1" parent="1" source="Qr0gB3C9Frs6GiIeUBCw-6" target="Qr0gB3C9Frs6GiIeUBCw-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
